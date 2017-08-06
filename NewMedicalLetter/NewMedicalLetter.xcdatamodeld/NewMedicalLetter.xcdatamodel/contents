@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Patient" representedClassName="Patient" syncable="YES" codeGenerationType="class">
+        <attribute name="birthDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diag1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diag2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diag3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diag4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="diag5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followUp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="followUpOther" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="med8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medsRefilled" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rec8" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="response" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reviewedIEP" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sideEffects" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sideEffectsString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Patient" positionX="-63" positionY="-18" width="128" height="508"/>
+    </elements>
 </model>

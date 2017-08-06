@@ -15,6 +15,15 @@
 		31A2B0011F22F42600037EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A2AFFF1F22F42600037EBC /* LaunchScreen.storyboard */; };
 		31A2B00C1F22F42600037EBC /* NewMedicalLetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B00B1F22F42600037EBC /* NewMedicalLetterTests.swift */; };
 		31A2B0171F22F42600037EBC /* NewMedicalLetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0161F22F42600037EBC /* NewMedicalLetterUITests.swift */; };
+		31A2B0291F22F45F00037EBC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A2B0241F22F45F00037EBC /* logo.png */; };
+		31A2B02A1F22F45F00037EBC /* letter.html in Resources */ = {isa = PBXBuildFile; fileRef = 31A2B0251F22F45F00037EBC /* letter.html */; };
+		31A2B02B1F22F45F00037EBC /* LetterComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0261F22F45F00037EBC /* LetterComposer.swift */; };
+		31A2B02C1F22F45F00037EBC /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0271F22F45F00037EBC /* PDFViewController.swift */; };
+		31A2B02D1F22F45F00037EBC /* PatientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0281F22F45F00037EBC /* PatientsTableViewController.swift */; };
+		31A2B02F1F22F47200037EBC /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B02E1F22F47200037EBC /* DatabaseController.swift */; };
+		31A2B0321F22F47A00037EBC /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0301F22F47A00037EBC /* CreatorViewController.swift */; };
+		31A2B0331F22F47A00037EBC /* CustomPDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B0311F22F47A00037EBC /* CustomPDFRenderer.swift */; };
+		31A2B03B1F22F94C00037EBC /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B03A1F22F94C00037EBC /* Structs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		31A2B0121F22F42600037EBC /* NewMedicalLetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewMedicalLetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A2B0161F22F42600037EBC /* NewMedicalLetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMedicalLetterUITests.swift; sourceTree = "<group>"; };
 		31A2B0181F22F42600037EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A2B0241F22F45F00037EBC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../LetterCreator/logo.png; sourceTree = "<group>"; };
+		31A2B0251F22F45F00037EBC /* letter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = letter.html; path = ../../LetterCreator/letter.html; sourceTree = "<group>"; };
+		31A2B0261F22F45F00037EBC /* LetterComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LetterComposer.swift; path = ../../LetterCreator/LetterComposer.swift; sourceTree = "<group>"; };
+		31A2B0271F22F45F00037EBC /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDFViewController.swift; path = ../../LetterCreator/PDFViewController.swift; sourceTree = "<group>"; };
+		31A2B0281F22F45F00037EBC /* PatientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientsTableViewController.swift; path = ../../LetterCreator/LetterCreator/PatientsTableViewController.swift; sourceTree = "<group>"; };
+		31A2B02E1F22F47200037EBC /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseController.swift; path = ../../NewLetterCreator/NewLetterCreator/DatabaseController.swift; sourceTree = "<group>"; };
+		31A2B0301F22F47A00037EBC /* CreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatorViewController.swift; path = ../../LetterCreator/LetterCreator/CreatorViewController.swift; sourceTree = "<group>"; };
+		31A2B0311F22F47A00037EBC /* CustomPDFRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPDFRenderer.swift; path = ../../LetterCreator/LetterCreator/CustomPDFRenderer.swift; sourceTree = "<group>"; };
+		31A2B03A1F22F94C00037EBC /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Structs.swift; path = NewMedicalLetter/Structs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 		31A2AFE71F22F42600037EBC = {
 			isa = PBXGroup;
 			children = (
+				31A2B03A1F22F94C00037EBC /* Structs.swift */,
 				31A2AFF21F22F42600037EBC /* NewMedicalLetter */,
 				31A2B00A1F22F42600037EBC /* NewMedicalLetterTests */,
 				31A2B0151F22F42600037EBC /* NewMedicalLetterUITests */,
@@ -99,8 +118,16 @@
 		31A2AFF21F22F42600037EBC /* NewMedicalLetter */ = {
 			isa = PBXGroup;
 			children = (
+				31A2B0241F22F45F00037EBC /* logo.png */,
+				31A2B0251F22F45F00037EBC /* letter.html */,
+				31A2B0261F22F45F00037EBC /* LetterComposer.swift */,
+				31A2B0271F22F45F00037EBC /* PDFViewController.swift */,
+				31A2B0281F22F45F00037EBC /* PatientsTableViewController.swift */,
 				31A2AFF31F22F42600037EBC /* AppDelegate.swift */,
+				31A2B02E1F22F47200037EBC /* DatabaseController.swift */,
 				31A2AFF51F22F42600037EBC /* ViewController.swift */,
+				31A2B0301F22F47A00037EBC /* CreatorViewController.swift */,
+				31A2B0311F22F47A00037EBC /* CustomPDFRenderer.swift */,
 				31A2AFF71F22F42600037EBC /* Main.storyboard */,
 				31A2AFFD1F22F42600037EBC /* Assets.xcassets */,
 				31A2AFFF1F22F42600037EBC /* LaunchScreen.storyboard */,
@@ -196,6 +223,7 @@
 				TargetAttributes = {
 					31A2AFEF1F22F42600037EBC = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H56WM8647W;
 						ProvisioningStyle = Automatic;
 					};
 					31A2B0061F22F42600037EBC = {
@@ -235,8 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A2B0291F22F45F00037EBC /* logo.png in Resources */,
 				31A2B0011F22F42600037EBC /* LaunchScreen.storyboard in Resources */,
 				31A2AFFE1F22F42600037EBC /* Assets.xcassets in Resources */,
+				31A2B02A1F22F45F00037EBC /* letter.html in Resources */,
 				31A2AFF91F22F42600037EBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A2B02C1F22F45F00037EBC /* PDFViewController.swift in Sources */,
 				31A2AFFC1F22F42600037EBC /* NewMedicalLetter.xcdatamodeld in Sources */,
+				31A2B03B1F22F94C00037EBC /* Structs.swift in Sources */,
 				31A2AFF61F22F42600037EBC /* ViewController.swift in Sources */,
+				31A2B0331F22F47A00037EBC /* CustomPDFRenderer.swift in Sources */,
+				31A2B02D1F22F45F00037EBC /* PatientsTableViewController.swift in Sources */,
 				31A2AFF41F22F42600037EBC /* AppDelegate.swift in Sources */,
+				31A2B0321F22F47A00037EBC /* CreatorViewController.swift in Sources */,
+				31A2B02B1F22F45F00037EBC /* LetterComposer.swift in Sources */,
+				31A2B02F1F22F47200037EBC /* DatabaseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = H56WM8647W;
 				INFOPLIST_FILE = NewMedicalLetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NewMedicalLetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -430,11 +470,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = H56WM8647W;
 				INFOPLIST_FILE = NewMedicalLetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NewMedicalLetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -511,6 +554,7 @@
 				31A2B01D1F22F42600037EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31A2B01E1F22F42600037EBC /* Build configuration list for PBXNativeTarget "NewMedicalLetterTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +563,7 @@
 				31A2B0201F22F42600037EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31A2B0211F22F42600037EBC /* Build configuration list for PBXNativeTarget "NewMedicalLetterUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +572,7 @@
 				31A2B0231F22F42600037EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
