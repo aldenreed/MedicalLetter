@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Testing
 struct PatientEntries{
     static var patients: [Patient] = []
 }
